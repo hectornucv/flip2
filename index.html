@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta id="viewport" name="viewport" content="width=640, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Game" />
+    <meta name="Author" content="">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="./dist/flip2win.css" media="screen" title="no title" charset="utf-8">
+    <script>
+      var LEVEL_NUMBER = 1; // This will be pre-populated via the back-end
+            var CAN_DEBUG = true;
+
+            function log(_log) {
+                if (CAN_DEBUG) {
+                    console.log(_log);
+                }
+            }
+
+    </script>
+    <title>Lucky win Questions</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="timer"></div>
+      <div class="flip2win-puzzle"></div>
+
+      <div class="restart"><button>restart</button></div>
+      <div class="next"><button>Next</button></div>
+    </div>
+    <script type="text/javascript" src="./dist/flip2win.js"></script>
+  </body>
+</html>
